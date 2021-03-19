@@ -6,6 +6,8 @@ Outline:
 This program will take an input document, and remove all words that are in the config files. The config file can use regular expressions.
 It will place the output in a file given by the user, or "Output.txt" if a filename was not specified.
 
+Depends on python libraries: sys, getopt, re, string, os
+
 How to compile:
 Make sure CONFIG_PROCESSOR, INPUT_CHECKER, INPUT_PROCESSOR, and MAIN are in the same folder.
 
